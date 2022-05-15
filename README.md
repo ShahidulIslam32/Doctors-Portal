@@ -1,4 +1,4 @@
-# Doctor's Portal 
+# Doctor's Portal - A Doctors Serial Mantain System
 ## A Clinical Appointment Based Web Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
