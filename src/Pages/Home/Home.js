@@ -1,7 +1,8 @@
 import React from 'react';
 import Banner from './Banner';
+import ContactUs from './ContactUs';
 import DentalCare from './DentalCare';
-import Footer from './Footer';
+//import Footer from './Footer';
 import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Service from './Service';
@@ -16,7 +17,8 @@ const Home = () => {
             <DentalCare></DentalCare>
             <MakeAppointment></MakeAppointment>
             <Testimonial></Testimonial>
-            <Footer></Footer>
+            <ContactUs></ContactUs>
+            {/* <Footer></Footer> */}
         </div>
     );
 };
