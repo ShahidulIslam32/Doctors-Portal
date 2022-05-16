@@ -6,7 +6,7 @@ const InfoCard = ({img , title , time , bgClass}) => {
             <figure className='pl-4 pt-5'>
                 <img src={img} alt="Album"/>
             </figure>
-            <div class="card-body text-white">
+            <div className="card-body text-white">
                 <h2 className='font-bold'>{title}</h2>
                 <p>{time}</p>
             </div>
