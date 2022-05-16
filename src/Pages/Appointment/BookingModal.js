@@ -1,5 +1,7 @@
 import React from 'react';
 import { format } from 'date-fns';
+import swal from 'sweetalert';
+
 
 const BookingModal = ({date , treatment , setTreatment}) => {
     const {_id ,name , slots} = treatment;
@@ -7,7 +9,9 @@ const BookingModal = ({date , treatment , setTreatment}) => {
         event.preventDefault()
         const slot = event.target.slot.value
         console.log(slot , _id , name);
+        swal("Your Booking is Confirm", "Thank You For Being With Us", "success");
         setTreatment(null)
+
     }
     return (
         <div>
